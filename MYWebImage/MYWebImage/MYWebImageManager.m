@@ -2,7 +2,7 @@
 //  MYWebImageManager.m
 //  MYWebImage
 //
-//  Created by 刘家强 on 16/7/31.
+//  Created by 刘家强 on 16/7/31..
 //  Copyright © 2016年 刘家强. All rights reserved.
 //
 
@@ -56,10 +56,10 @@
 
     if (image) {
         complete(image);
-        
+
         // 缓存到内存中
         [self.imagesDict setObject:image forKey:urlString];
-        
+
         return;
     }
 
