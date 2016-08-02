@@ -15,6 +15,7 @@
 		A39D9CA11D4E2D3C001932B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39D9C9F1D4E2D3C001932B7 /* LaunchScreen.storyboard */; };
 		A39D9CAB1D4E309F001932B7 /* MYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A39D9CAA1D4E309F001932B7 /* MYWebImageManager.m */; };
 		A39D9CAE1D4E3541001932B7 /* MYLoadImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A39D9CAD1D4E3541001932B7 /* MYLoadImageOperation.m */; };
+		A3ADAE4B1D4F601D004651BB /* UIImageView+MYWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ADAE4A1D4F601D004651BB /* UIImageView+MYWebCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		A39D9CAA1D4E309F001932B7 /* MYWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYWebImageManager.m; sourceTree = "<group>"; };
 		A39D9CAC1D4E3541001932B7 /* MYLoadImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYLoadImageOperation.h; sourceTree = "<group>"; };
 		A39D9CAD1D4E3541001932B7 /* MYLoadImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYLoadImageOperation.m; sourceTree = "<group>"; };
+		A3ADAE491D4F601D004651BB /* UIImageView+MYWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MYWebCache.h"; sourceTree = "<group>"; };
+		A3ADAE4A1D4F601D004651BB /* UIImageView+MYWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MYWebCache.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				A39D9CAA1D4E309F001932B7 /* MYWebImageManager.m */,
 				A39D9CAC1D4E3541001932B7 /* MYLoadImageOperation.h */,
 				A39D9CAD1D4E3541001932B7 /* MYLoadImageOperation.m */,
+				A3ADAE491D4F601D004651BB /* UIImageView+MYWebCache.h */,
+				A3ADAE4A1D4F601D004651BB /* UIImageView+MYWebCache.m */,
 			);
 			path = MYWebImage;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3ADAE4B1D4F601D004651BB /* UIImageView+MYWebCache.m in Sources */,
 				A39D9CAE1D4E3541001932B7 /* MYLoadImageOperation.m in Sources */,
 				A39D9CAB1D4E309F001932B7 /* MYWebImageManager.m in Sources */,
 				A39D9C991D4E2D3C001932B7 /* ViewController.m in Sources */,
@@ -321,6 +327,7 @@
 				A39D9CA71D4E2D3C001932B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
